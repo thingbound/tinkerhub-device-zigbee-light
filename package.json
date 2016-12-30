@@ -5,6 +5,15 @@
   "description": "Tinkerhub device for Zigbee lights and Zigbee Light Link",
   "repository": "tinkerhub/tinkerhub-device-zigbee-light",
   "main": "lib/light.js",
+  "keywords": [
+    "tinkerhub",
+    "tinkerhub-device",
+    "zigbee",
+    "hue",
+    "lightify",
+    "trådfri",
+    "lights"
+  ],
   "scripts": {
     "prepublish": "node_modules/.bin/eslint lib",
     "test": "node_modules/.bin/eslint lib"
