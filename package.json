@@ -1,0 +1,23 @@
+{
+  "name": "tinkerhub-device-zigbee-light",
+  "version": "0.1.0",
+  "license": "MIT",
+  "description": "Tinkerhub device for Zigbee lights and Zigbee Light Link",
+  "repository": "tinkerhub/tinkerhub-device-zigbee-light",
+  "main": "lib/light.js",
+  "scripts": {
+    "prepublish": "node_modules/.bin/eslint lib",
+    "test": "node_modules/.bin/eslint lib"
+  },
+  "peerDependencies": {
+    "tinkerhub": "^1.0.0"
+  },
+  "dependencies": {
+    "clone": "^2.1.0",
+    "deep-equal": "^1.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^3.11.1",
+    "eslint-plugin-node": "^3.0.5"
+  }
+}
